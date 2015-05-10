@@ -1,0 +1,41 @@
+Backup HTML
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Avery Alchek</title>
+     <link rel="stylesheet" type="text/css" href="aalchek.css"/>
+     <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  </head>
+  <div class="top_bar">
+    <div class="header">Avery Alchek
+    </div>
+  </div>
+  <div class="top_bar">
+    <ul class="navigationbar">
+      <li class="navbar"><a class="test" href="aalchek.github.io/"><!--<p class="bardiv">Home
+    </p>-->Home</a></li></ul>
+
+     <a href="aalchek.github.io/About_Me"><p class="bardiv">About Me
+      </p></a>
+
+      <a href="aalchek.github.io/Blog"><div class="bardiv">Blog
+       </div></a>
+      <a href="aalchek.github.io/"><div class="bardiv">Education
+      </div></a>
+      <a href="aalchek.github.io/"><div class="bardiv">Product Work
+       </div></a>
+      <a href="aalchek.github.io/"><div class="bardiv">Experience
+      </div></a>
+      <a href="aalchek.github.io/"><div class="bardiv">Interests
+      </div></a>
+      <a href="aalchek.github.io/"><div class="bardiv">Contact Info
+       </div></a>
+    </div>
+
+<img src="ChiBig.JPG" class="BigPic" />
+
+  <body>
+      Hello DBC!
+  </body>
+</html>
