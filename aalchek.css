@@ -1,0 +1,84 @@
+html{
+  height: 100%;
+  width: 100%;
+  background-color: #FCFCFC;
+}
+.header{
+  text-align: center;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  font-size: 32px;
+  font-family: Merriweather, serif;
+  font-weight: bold;
+  font-color: #2B2B2B;
+
+}
+.top_bar{
+
+width: 100%;
+height: 50px;
+background-color: white;
+display: inline-block;
+
+
+}
+
+.bardiv{
+
+  display: inline-block;
+  height: 100%;
+  width: 12.25%;
+  text-align: center;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Merriweather, serif;
+  color: #2B2B2B;
+}
+
+.ulnav{
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+
+}
+
+.linav{
+  display: inline-block;
+  text-align: center;
+  width: 12.25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anav{
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Merriweather, serif;
+  color: #2B2B2B;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+.bardiv a:link, .bardiv a:visited, .bardiv a:hover{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Merriweather, serif;
+  font-color: #2B2B2B;
+  color: black;
+}*/
+
+img.BigPic{
+  width: 100%;
+  height: 610px;
+}
