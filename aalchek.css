@@ -1,9 +1,11 @@
+/*Background of site*/
 html{
   height: 100%;
   width: 100%;
   background-color: #FCFCFC;
 }
-.header{
+/*Header formatting*/
+header{
   text-align: center;
   margin-top: auto;
   margin-right: auto;
@@ -13,22 +15,56 @@ html{
   font-family: Merriweather, serif;
   font-weight: bold;
   font-color: #2B2B2B;
-
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  display: inline-block;
 }
-.top_bar{
 
+/* Div containing the top and bottom half formatting of the nav bar. top half = header, bottom half = nav bar*/
+.top_bar{
 width: 100%;
 height: 50px;
 background-color: white;
 display: inline-block;
+
 }
+/*Div containing the menu options on the nav bar (Unorganized List)*/
 .top_bar .ulnav{
-  padding-bottom: 13px;
-  border-bottom: 1px solid #2B2B2B;
+ /* padding-bottom: 13px;*/
+  list-style-type: none;
+
   overflow: hidden;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
+/*Nav Bar Option Selectors (on individual basis)*/
+.linav{
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12.5%;
+  float: left;
+}
 
+/*The links of the front page nav bar*/
+.anav{
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Merriweather, serif;
+  color: #2B2B2B;
+  display: block;
+}
+
+img.BigPic{
+  width: 100%;
+  height: 610px;
+  position: fixed;
+}
+
+/* This is an old class. Saving information here.
 .bardiv{
 
   display: inline-block;
@@ -44,47 +80,4 @@ display: inline-block;
   font-weight: bold;
   font-family: Merriweather, serif;
   color: #2B2B2B;
-}
-
-.ulnav{
-  list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-
-}
-
-.linav{
-  display: inline;
-  text-align: center;
-  width: 12.25%;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-}
-
-
-.anav{
-  background-color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: Merriweather, serif;
-  color: #2B2B2B;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*
-.bardiv a:link, .bardiv a:visited, .bardiv a:hover{
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: Merriweather, serif;
-  font-color: #2B2B2B;
-  color: black;
 }*/
-
-img.BigPic{
-  width: 100%;
-  height: 610px;
-}

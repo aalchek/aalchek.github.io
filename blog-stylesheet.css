@@ -4,6 +4,7 @@
   font-family: Merriweather, serif;
   font-weight: bold, underline;
   text-align: left;
+  margin-left: 15px;
 
 }
 
@@ -12,6 +13,7 @@
   font-family: Merriweather, serif;
   font-weight: bold;
   text-align: left;
+  margin-left: 15px;
 
 }
 .BlogPost{
@@ -34,9 +36,15 @@ border: 1px solid black;
   font-size: 14px;
   margin-top: 2%;
   margin-bottom: 2%;
+
 }
 .Week{
   font-size: 20px;
   font-weight: bold;
   font-family: Merriweather, serif;
+
+}
+
+.itbold{
+  font-weight: bold;
 }
